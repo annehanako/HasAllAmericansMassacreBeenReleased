@@ -2,24 +2,14 @@
 <html lang="en">
 
 <head>
-    <script>
-        function PlayMusic() {
 
-            var play = document.getElementById("music");
-            play.play();
-        }
-
-        $(document).ready(function () {
-            setTimeout(PlayMusic, 3000);
-        })
-
-    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta charset="UTF-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <link rel="icon" type="image/x-icon" href="img/cabesa.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -56,5 +46,18 @@
     </div>
     <script src="script.js"></script>
 </body>
+<script>
+$('document').ready(function(){
+    console.log ("atumalaca");
 
+   $('#card').on("scroll", function(){
+    console.log ("atumalaca2");
+
+   })
+   
+//    scroll(function(){
+//     $('#music')[0].play()
+//    })
+})
+</script>
 </html>
