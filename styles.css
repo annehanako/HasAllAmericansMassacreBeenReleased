@@ -5,18 +5,17 @@ body {
     background-color: #fcfafa;
     margin: 5px;
     display: flex;
-    flex-direction: column;
-
-
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100vw;
 }
 
 #card {
     max-width: 50%;
-    margin: auto auto;
     border: black;
     display: flex;
     background-color: white;
-    flex-direction: inherit;
+    flex-direction: column;
     border-style: groove;
 }
 
@@ -62,18 +61,10 @@ h1 {
 
 }
 
-#panelright {
-    margin-left: 1000px;
-    height: 0px;
-    width: 0px;
+#panelright, #panelleft {
+    width: 25%;
+
 }
-
-#panelleft {
-    height: 0px;
-    width: 0px;
-}
-
-
 
 #sadness {
     height: 250px;
